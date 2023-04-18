@@ -1,5 +1,5 @@
 const mongoose=require('mongoose');
-const uri='mongodb+srv://loan21:loan21@cluster0.zvt3llr.mongodb.net/laxmi?retryWrites=true&w=majority';
+const uri='';
 const connecttomongo=()=>{
     mongoose.connect(uri).then((data)=>{
         console.log('Connected to databse successfully '+ data.Connection.name)
